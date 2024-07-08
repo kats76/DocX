@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "uOa/vMcdSXc=",
+  "success": true,
+  "projectFilePath": "E:\\dotnet\\ServicioDocx\\ServicioDocx.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\juand\\.nuget\\packages\\docx\\3.0.1\\docx.3.0.1.nupkg.sha512",
+    "C:\\Users\\juand\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\juand\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\juand\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\juand\\.nuget\\packages\\system.io.packaging\\4.5.0\\system.io.packaging.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
