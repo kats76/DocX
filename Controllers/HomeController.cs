@@ -46,6 +46,6 @@ public class HomeController : Controller
             doc.Save();
         }
 
-        return View();
+        return RedirectToAction("Index");
     }
 }

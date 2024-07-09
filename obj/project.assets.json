@@ -233,11 +233,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dotnet\\ServicioDocx\\ServicioDocx.csproj",
+      "projectUniqueName": "E:\\dotnet\\DocX\\ServicioDocx.csproj",
       "projectName": "ServicioDocx",
-      "projectPath": "E:\\dotnet\\ServicioDocx\\ServicioDocx.csproj",
+      "projectPath": "E:\\dotnet\\DocX\\ServicioDocx.csproj",
       "packagesPath": "C:\\Users\\juand\\.nuget\\packages\\",
-      "outputPath": "E:\\dotnet\\ServicioDocx\\obj\\",
+      "outputPath": "E:\\dotnet\\DocX\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

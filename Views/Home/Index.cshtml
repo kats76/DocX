@@ -1,12 +1,26 @@
-<form method="post" action="/Home/CreateDoc">
-    <label for="title">Título:</label><br>
-    <input type="text" id="title" name="title"><br>
-    <label for="subtitle">Subtítulo:</label><br>
-    <input type="text" id="subtitle" name="subtitle"><br>
-    <label for="paragraph">Párrafo:</label><br>
-    <textarea id="paragraph" name="paragraph"></textarea><br>
-    <label for="footer">Pie de página:</label><br>
-    <input type="text" id="footer" name="footer"><br>
-    <input type="submit" value="Crear documento">
-</form>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
 
+<body>
+
+    <form method="post" action="/Home/CreateDoc" class="p-3">
+        <div class="mb-3">
+            <label for="title" class="form-label">Título:</label>
+            <input type="text" id="title" name="title" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="subtitle" class="form-label">Subtítulo:</label>
+            <input type="text" id="subtitle" name="subtitle" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="paragraph" class="form-label">Párrafo:</label>
+            <textarea id="paragraph" name="paragraph" class="form-control"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="footer" class="form-label">Pie de página:</label>
+            <input type="text" id="footer" name="footer" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Crear documento</button>
+    </form>
+</body>
