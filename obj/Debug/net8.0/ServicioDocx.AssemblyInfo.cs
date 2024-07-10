@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServicioDocx")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ba11062a62a4239e46ca6c951ae19fcddef3fb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26e35d0c7c60c4973a2673b1667069345835fc15")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServicioDocx")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServicioDocx")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

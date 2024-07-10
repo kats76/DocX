@@ -1,10 +1,17 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
+<script>
+    function resetForm() {
+        setTimeout(function() {
+            document.getElementById('myForm').reset();
+        }, 1000); 
+    }
+</script>
 
 <body>
 
-    <form method="post" action="/Home/CreateDoc" class="p-3">
+    <form id="myForm" method="post" action="/Home/CreateDoc" class="p-3" onsubmit="resetForm()">
         <div class="mb-3">
             <label for="title" class="form-label">Título:</label>
             <input type="text" id="title" name="title" class="form-control">
