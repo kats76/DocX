@@ -1,5 +1,14 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddControllersWithViews(); // Añade los servicios necesarios para usar controladores y vistas
+
+// Añadir los servicios necesarios para usar controladores y vistas
+builder.Services.AddControllersWithViews();
+
+// Registrar el servicio 'Servicio'
+builder.Services.AddTransient<Servicio>();
 
 var app = builder.Build();
 
@@ -20,4 +29,3 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
-

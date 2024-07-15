@@ -47,9 +47,6 @@ E:\dotnet\DocX\bin\Debug\net8.0\Xceed.Words.NET.dll
 E:\dotnet\DocX\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 E:\dotnet\DocX\bin\Debug\net8.0\System.Drawing.Common.dll
 E:\dotnet\DocX\bin\Debug\net8.0\System.IO.Packaging.dll
-E:\dotnet\DocX\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-E:\dotnet\DocX\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-E:\dotnet\DocX\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 E:\dotnet\DocX\obj\Debug\net8.0\ServicioDocx.csproj.AssemblyReference.cache
 E:\dotnet\DocX\obj\Debug\net8.0\ServicioDocx.GeneratedMSBuildEditorConfig.editorconfig
 E:\dotnet\DocX\obj\Debug\net8.0\ServicioDocx.AssemblyInfoInputs.cache
@@ -111,3 +108,5 @@ c:\Users\Imp_06 - Al Mañana\DocX\obj\Debug\net8.0\refint\ServicioDocx.dll
 c:\Users\Imp_06 - Al Mañana\DocX\obj\Debug\net8.0\ServicioDocx.pdb
 C:\Users\Imp_06 - Al Mañana\DocX\obj\Debug\net8.0\ServicioDocx.genruntimeconfig.cache
 C:\Users\Imp_06 - Al Mañana\DocX\obj\Debug\net8.0\ref\ServicioDocx.dll
+E:\dotnet\DocX\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\dotnet\DocX\bin\Debug\net8.0\Microsoft.Office.Interop.Word.dll

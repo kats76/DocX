@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<script>
+    function addSection() {
+        var sectionsDiv = document.getElementById('sections');
+        var newSection = document.createElement('div');
+        newSection.classList.add('section', 'mb-3');
+        newSection.innerHTML = `
+            <div class="mb-3">
+                <label class="form-label">Título de la Sección:</label>
+                <input type="text" name="sectionTitles" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Párrafo:</label>
+                <textarea name="paragraphs" class="form-control"></textarea>
+            </div>
+        `;
+        sectionsDiv.appendChild(newSection);
+    }
+
+    function resetForm() {
+        setTimeout(function() {
+            document.getElementById('myForm').reset();
+        }, 1000); 
+    }
+</script>
+<body>
+    <form id="myForm" method="post" action="/Home/CreateDoc" enctype="multipart/form-data" class="p-3" onsubmit="resetForm()">
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombre del Archivo:</label>
+            <input type="text" id="name" name="name" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="title" class="form-label">Título:</label>
+            <input type="text" id="title" name="title" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="subtitle" class="form-label">Subtítulo:</label>
+            <input type="text" id="subtitle" name="subtitle" class="form-control">
+        </div>
+        <div id="sections">
+            <div class="section mb-3">
+                <label class="form-label">Título de la Sección:</label>
+                <input type="text" name="sectionTitles" class="form-control">
+                <label class="form-label">Párrafo:</label>
+                <textarea name="paragraphs" class="form-control"></textarea>
+            </div>
+        </div>
+        <button type="button" class="btn btn-secondary mb-3" onclick="addSection()">Agregar Sección</button>
+        <div class="mb-3">
+            <label for="image" class="form-label">Imagen:</label>
+            <input type="file" id="image" name="image" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="imageText" class="form-label">Texto Bajo la Imagen:</label>
+            <input type="text" id="imageText" name="imageText" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="bibliography" class="form-label">Bibliografía:</label>
+            <textarea id="bibliography" name="bibliography" class="form-control"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="closing" class="form-label">Texto de Cierre:</label>
+            <textarea id="closing" name="closing" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Crear documento</button>
+    </form>
+</body>
+</html>

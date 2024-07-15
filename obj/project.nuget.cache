@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "O0JFprs4V/4=",
+  "dgSpecHash": "cmS+5NVRp78=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Imp_06 - Al Mañana\\DocX\\ServicioDocx.csproj",
+  "projectFilePath": "E:\\dotnet\\DocX\\ServicioDocx.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Imp_06 - Al Mañana\\.nuget\\packages\\docx\\3.0.1\\docx.3.0.1.nupkg.sha512",
-    "C:\\Users\\Imp_06 - Al Mañana\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-    "C:\\Users\\Imp_06 - Al Mañana\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
-    "C:\\Users\\Imp_06 - Al Mañana\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
-    "C:\\Users\\Imp_06 - Al Mañana\\.nuget\\packages\\system.io.packaging\\4.5.0\\system.io.packaging.4.5.0.nupkg.sha512"
+    "C:\\Users\\juand\\.nuget\\packages\\docx\\3.0.1\\docx.3.0.1.nupkg.sha512",
+    "C:\\Users\\juand\\.nuget\\packages\\microsoft.office.interop.word\\15.0.4797.1004\\microsoft.office.interop.word.15.0.4797.1004.nupkg.sha512",
+    "C:\\Users\\juand\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\juand\\.nuget\\packages\\system.drawing.common\\8.0.7\\system.drawing.common.8.0.7.nupkg.sha512",
+    "C:\\Users\\juand\\.nuget\\packages\\system.io.packaging\\4.5.0\\system.io.packaging.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
