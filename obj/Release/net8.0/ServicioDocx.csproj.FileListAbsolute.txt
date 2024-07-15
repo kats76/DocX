@@ -10,9 +10,6 @@ E:\dotnet\DocX\bin\Release\net8.0\Xceed.Words.NET.dll
 E:\dotnet\DocX\bin\Release\net8.0\Microsoft.Win32.SystemEvents.dll
 E:\dotnet\DocX\bin\Release\net8.0\System.Drawing.Common.dll
 E:\dotnet\DocX\bin\Release\net8.0\System.IO.Packaging.dll
-E:\dotnet\DocX\bin\Release\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-E:\dotnet\DocX\bin\Release\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-E:\dotnet\DocX\bin\Release\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 E:\dotnet\DocX\obj\Release\net8.0\ServicioDocx.csproj.AssemblyReference.cache
 E:\dotnet\DocX\obj\Release\net8.0\ServicioDocx.GeneratedMSBuildEditorConfig.editorconfig
 E:\dotnet\DocX\obj\Release\net8.0\ServicioDocx.AssemblyInfoInputs.cache
@@ -36,3 +33,5 @@ E:\dotnet\DocX\obj\Release\net8.0\refint\ServicioDocx.dll
 E:\dotnet\DocX\obj\Release\net8.0\ServicioDocx.pdb
 E:\dotnet\DocX\obj\Release\net8.0\ServicioDocx.genruntimeconfig.cache
 E:\dotnet\DocX\obj\Release\net8.0\ref\ServicioDocx.dll
+E:\dotnet\DocX\bin\Release\net8.0\Microsoft.Office.Interop.Word.dll
+E:\dotnet\DocX\bin\Release\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll

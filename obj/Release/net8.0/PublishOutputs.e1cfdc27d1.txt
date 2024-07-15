@@ -7,9 +7,8 @@ E:\dotnet\DocX\bin\Release\net8.0\publish\ServicioDocx.runtimeconfig.json
 E:\dotnet\DocX\bin\Release\net8.0\publish\ServicioDocx.pdb
 E:\dotnet\DocX\bin\Release\net8.0\publish\Xceed.Document.NET.dll
 E:\dotnet\DocX\bin\Release\net8.0\publish\Xceed.Words.NET.dll
+E:\dotnet\DocX\bin\Release\net8.0\publish\Microsoft.Office.Interop.Word.dll
 E:\dotnet\DocX\bin\Release\net8.0\publish\Microsoft.Win32.SystemEvents.dll
 E:\dotnet\DocX\bin\Release\net8.0\publish\System.Drawing.Common.dll
 E:\dotnet\DocX\bin\Release\net8.0\publish\System.IO.Packaging.dll
-E:\dotnet\DocX\bin\Release\net8.0\publish\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-E:\dotnet\DocX\bin\Release\net8.0\publish\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-E:\dotnet\DocX\bin\Release\net8.0\publish\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\dotnet\DocX\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
