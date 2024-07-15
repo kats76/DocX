@@ -14,9 +14,9 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult CreateDoc(string title, string subtitle, string[] sectionTitles, string[] paragraphs, IFormFile[] images, string[] imageTexts, string bibliography)
+    public IActionResult CreateDoc(string title, string subtitle, IFormFile imagenPortada, string[] sectionTitles, string[] paragraphs, IFormFile[] images, string[] imageTexts, string bibliography)
     {
-        var documento = _servicio.CrearDocumento(title, subtitle, sectionTitles, paragraphs, images, imageTexts, bibliography);
+        var documento = _servicio.CrearDocumento(title, subtitle,imagenPortada ,sectionTitles, paragraphs, images, imageTexts, bibliography);
         return _servicio.GenerarDocumento(documento);
     }
 
