@@ -1,0 +1,14 @@
+E:\dotnet\DocX\publish\ServicioDocx.exe
+E:\dotnet\DocX\publish\appsettings.Development.json
+E:\dotnet\DocX\publish\appsettings.json
+E:\dotnet\DocX\publish\ServicioDocx.dll
+E:\dotnet\DocX\publish\ServicioDocx.deps.json
+E:\dotnet\DocX\publish\ServicioDocx.runtimeconfig.json
+E:\dotnet\DocX\publish\ServicioDocx.pdb
+E:\dotnet\DocX\publish\Xceed.Document.NET.dll
+E:\dotnet\DocX\publish\Xceed.Words.NET.dll
+E:\dotnet\DocX\publish\Microsoft.Office.Interop.Word.dll
+E:\dotnet\DocX\publish\Microsoft.Win32.SystemEvents.dll
+E:\dotnet\DocX\publish\System.Drawing.Common.dll
+E:\dotnet\DocX\publish\System.IO.Packaging.dll
+E:\dotnet\DocX\publish\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
